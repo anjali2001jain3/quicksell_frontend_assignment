@@ -1,0 +1,16 @@
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono&display=swap");
+
+* {
+  background-color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+}
+.colour {
+  background-color: #f4f4f4;
+}
+
