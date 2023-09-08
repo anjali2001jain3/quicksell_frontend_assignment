@@ -1,0 +1,25 @@
+/* Filter.css */
+.Filter {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.columnname {
+  font-size: 15px;
+  font-weight: bold;
+}
+.group {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
