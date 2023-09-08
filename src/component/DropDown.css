@@ -1,0 +1,22 @@
+.DropDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 20px;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
