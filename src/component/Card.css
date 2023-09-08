@@ -1,0 +1,50 @@
+.card {
+  width: 300px; 
+  height: 200px; 
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; 
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1; 
+
+}
+
+.card-title {
+  margin: 0;
+  font-size: 15px;
+
+  
+}
+
+.bullet-icon {
+  font-size: large;
+  color: #808080;
+  padding-right: 2%;
+}
+
+.card-id {
+  font-size: 12px;
+  color: #808080;
+}
+
+.card-tag {
+  font-style: italic;
+  color: #808080;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-style: solid ;
+  border-width:0.02rem;
+  border-color: #808080;
+}
